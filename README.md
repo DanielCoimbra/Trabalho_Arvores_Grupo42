@@ -66,7 +66,7 @@ Este algoritmo funciona em 3 etapas principais:
 Criamos a lista de adjacência e calculamos o grau de cada nó.
 Isso nos permite manipular a estrutura como uma árvore verdadeira.
 
-2.Poda das folhas sem moedas
+2. Poda das folhas sem moedas
 Removemos iterativamente todos os nós que:
 
 são folhas (grau = 1), e não possuem coin.
@@ -102,9 +102,9 @@ Esse método funciona porque:
 
 Trata-se de um problema típico de tree DP / tree pruning, muito usado em:
 
-. compressão de árvores,
-. problemas de menor caminho em árvores,
-. minimização de percursos obrigatórios em grafos acíclicos.
+. Compressão de árvores.
+. Problemas de menor caminho em árvores.
+. Minimização de percursos obrigatórios em grafos acíclicos.
 
 ## Complexidade 
 
